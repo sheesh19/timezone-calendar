@@ -1,2 +1,6 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<h1>Calendar</h1>
+<div class='js-calendar'
+  data-event-start="<%= @event[:start] %>"
+  data-event-end="<%= @event[:end] %>"
+  data-timeslots="<%= @timeslots.to_json %>"
+></div>
