@@ -1,1 +1,16 @@
 // Specific CSS for your home-page
+.grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 2rem;
+}
+
+.drag-event {
+  padding: 1rem;
+  border-radius: 50px;
+  color: white;
+  background-color: teal;
+  width: 12rem;
+  font-size: small;
+  text-align: center;
+}

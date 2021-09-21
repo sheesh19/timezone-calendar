@@ -14,6 +14,7 @@ class TimeslotsController < ApplicationController
     end
   end
 
+
   private
 
   def timeslot_params
